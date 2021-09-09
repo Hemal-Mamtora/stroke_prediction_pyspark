@@ -1,0 +1,64 @@
+"""
+root
+ |-- id: integer (nullable = true)
+ |-- gender: integer (nullable = true)
+ |-- age: integer (nullable = true)
+ |-- hypertension: integer (nullable = true)
+ |-- heart_disease: integer (nullable = true)
+ |-- ever_married: integer (nullable = true)
+ |-- work_type: integer (nullable = true)
+ |-- residence_type: integer (nullable = true)
+ |-- avg_glucose_level: double (nullable = true)
+ |-- bmi: double (nullable = true)
+ |-- smoking_status: integer (nullable = true)
+ |-- stroke: integer (nullable = true)
+ |-- features: vector (nullable = true)
+
+root
+ |-- id: integer (nullable = true)
+ |-- gender: integer (nullable = true)
+ |-- age: integer (nullable = true)
+ |-- hypertension: integer (nullable = true)
+ |-- heart_disease: integer (nullable = true)
+ |-- ever_married: integer (nullable = true)
+ |-- work_type: integer (nullable = true)
+ |-- residence_type: integer (nullable = true)
+ |-- avg_glucose_level: double (nullable = true)
+ |-- bmi: double (nullable = true)
+ |-- smoking_status: integer (nullable = true)
+ |-- stroke: integer (nullable = true)
+ |-- features: vector (nullable = true)
+
+
+1. Evaluations For Decision Tree Classifier (depth 5)
+
+Test Area Under ROC: 0.768139651656334
+Test Area Under Precision Recall Curve: 0.7461299883929062
+2. Evaluations For Random Forest Classifier
+
+Test Area Under ROC: 0.8417353412425762 (10 trees)
+Test Area Under Precision Recall Curve: 0.8022116726992913
+
+3. Evaluations For Gradient Boosted Tree (15 iterations)
+
+Test Area Under ROC: 0.8749491766436319
+Test Area Under Precision Recall Curve: 0.8383484936234599
+
+
+1. Evaluations For Decision Tree Classifier (depth 10)
+
+Test Area Under ROC: 0.8436204375123288
+Test Area Under Precision Recall Curve: 0.7738773601201463
+
+
+
+2. Evaluations For Random Forest Classifier (50 trees)
+
+Test Area Under ROC: 0.8442934321841468
+Test Area Under Precision Recall Curve: 0.8087893423366714
+
+3. Evaluations For Gradient Boosted Tree (50 iterations)
+
+Test Area Under ROC: 0.9087341656505779
+Test Area Under Precision Recall Curve: 0.8756167110974958
+""" 
